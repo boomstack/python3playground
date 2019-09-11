@@ -48,3 +48,22 @@ print(q)
 
 ```
 
+### 最大整型
+```python
+import sys
+print(sys.maxsize)
+# 9223372036854775807 64位机2的63次方-1
+```
+### 成员变量
+定义形似Kotlin，使用形似oc
+```python
+    minValue: int = sys.maxsize
+    #use
+    self.minVlaue
+```
+### 判空
+```python
+obj is None
+#等同于
+obj == None
+```
